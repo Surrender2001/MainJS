@@ -1,0 +1,22 @@
+body {
+    background-image: url("navi.jpg");
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px;
+    text-align: center;
+}
+.line{
+    font-size: 45px;
+    font-weight: bold;
+    color: yellow;
+    background: black;
+    border-radius: 100px;
+    background-size: auto;
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+}

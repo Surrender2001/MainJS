@@ -1,0 +1,39 @@
+body{
+    background-image: url("Kimmetsu.jpg");
+    background-size: 100%;
+}
+.info{
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+}
+.start{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: purple;
+    background: white;
+    margin-right: 40px;
+}
+.turns{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.field{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    padding: 10px;
+}
+.row{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.cell{
+    width: 140px;
+    height: 140px;
+    background: black;
+    margin-right: 2px;
+}
+

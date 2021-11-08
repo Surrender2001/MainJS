@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="188.166.255.100" id="84056ad4-e91d-4949-8da3-d3c94426b97e" keyPath="E:\Study\Course3\Internet Technologies\pr_exp" port="22" nameFormat="DESCRIPTIVE" username="root" />
+    </configs>
+  </component>
+</project>
