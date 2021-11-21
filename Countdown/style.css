@@ -1,0 +1,39 @@
+body{
+    background-image: url("kozetta.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-red {
+    color: red !important;
+}
+
+.countdown {
+    margin: 16px;
+    font-size: 100px;
+    color: chartreuse;
+}
+
+.start-button {
+    font-size: 20px;
+    padding: 6px 16px;
+    background-color: chartreuse;
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 3px;
+}
+
+.start-button:hover {
+    background-color: cadetblue;
+    cursor: pointer;
+}
