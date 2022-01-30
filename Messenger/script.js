@@ -1,3 +1,4 @@
+import './style.css'
 const list = document.querySelector('.messages');
 let itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
 localStorage.setItem('items', JSON.stringify(itemsArray));

@@ -1,3 +1,4 @@
+import './style.css'
 const start = document.querySelector('.start');
 const buttons = document.querySelectorAll('.cell');
 const turnsTable = document.querySelector('.turns');

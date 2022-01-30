@@ -1,3 +1,4 @@
+import './style.css'
 const startButton = document.querySelector('.start-button');
 const countdown = document.querySelector('.countdown');
 const delay = 50;

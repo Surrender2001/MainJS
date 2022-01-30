@@ -1,4 +1,5 @@
-fetch('im.json').then((result) => {
+import './style.css'
+fetch('/Artstation/im.json').then((result) => {
     result.json().then((result) =>{
         addImage(result.firstIm);
         addImage(result.secondIm);
