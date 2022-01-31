@@ -7,7 +7,8 @@ module.exports = {
         countdown:'./Countdown/script.js',
         messenger:'./Messenger/script.js',
         pilots:'./PilotsBros/script.js',
-        whack:'./WhackMole/script.js'
+        whack:'./WhackMole/script.js',
+        main:'./script.js'
     },
     output:{
         filename:'[name].bundle.js',
@@ -19,33 +20,39 @@ module.exports = {
             {
                 template: "./Artstation/index.html",
                 filename: "index.html",
-                excludeChunks: ['countdown','messenger','pilots']
+                excludeChunks: ['countdown','messenger','pilots','whack','main']
             }),
         new CleanWebpackPlugin(),
         new htmlwebpackplugin(
             {
                 template: "./Countdown/index.html",
                 filename: "indexcount.html",
-                excludeChunks: ['artstation','messenger','pilots','whack']
+                excludeChunks: ['artstation','messenger','pilots','whack','main']
             }),
         new htmlwebpackplugin(
             {
                 template: "./Messenger/index.html",
                 filename: "indexmessage.html",
-                excludeChunks: ['artstation','countdown','pilots','whack']
+                excludeChunks: ['artstation','countdown','pilots','whack','main']
             }),
         new htmlwebpackplugin(
             {
                 template: "./PilotsBros/index.html",
                 filename: "indexpilots.html",
-                excludeChunks: ['artstation','countdown','messenger','whack']
+                excludeChunks: ['artstation','countdown','messenger','whack','main']
             }),
         new htmlwebpackplugin(
             {
                 template: "./WhackMole/index.html",
                 filename: "indexwhackmole.html",
-                excludeChunks: ['artstation','countdown','messenger','pilots']
-            })
+                excludeChunks: ['artstation','countdown','messenger','pilots','main']
+            }),
+        new htmlwebpackplugin(
+            {
+                template: "./index.html",
+                filename: "indexmain.html",
+                excludeChunks: ['countdown','messenger','pilots','artstation','whack']
+            }),
     ],
     module: {
         rules:[
